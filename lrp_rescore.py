@@ -5,9 +5,6 @@ import numpy as np
 import MDAnalysis as mda
 from MDAnalysis.analysis import distances
 
-"""
-重打分脚本 添加
-"""
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-lrp_sin', '--lrp_data_sin', default="lrp_sin.dat")
